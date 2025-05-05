@@ -39,15 +39,12 @@ The file `train_models.py` implements the fine‑tuning pipeline:
    - Training plots (`train_val_history.png`) and confusion matrices (`confusion_matrix.png`)
 
 How to Run
-1. **Install dependencies**  
-   ```bash
-   pip install -r requirements.txt
-   ```
-2. **Data cleaning & EDA**  
+
+1. **Data cleaning & EDA**  
    ```bash
    jupyter nbconvert --to notebook --execute Data_cleaning_EDA.ipynb
    ```
-3. **Model training**  
+2. **Model training**  
    ```bash
    python train_models.py
    ```
