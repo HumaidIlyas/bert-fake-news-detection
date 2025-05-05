@@ -23,7 +23,7 @@ BATCH_SIZE = 32
 EPOCHS     = 2
 MAX_LEN    = 64
 
-# List of 🤗 model checkpoints to compare
+# List of model checkpoints to compare
 MODEL_NAMES = [
     'bert-base-uncased',
     'roberta-base',
