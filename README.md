@@ -3,15 +3,7 @@
 Fake News Detection with Transformers
 Overview
 This project fine‑tunes two pre‑trained transformer models (BERT‑base‑uncased and RoBERTa‑base) to automatically detect fake news articles. We start from a publicly available Kaggle dataset of raw headlines and article bodies, perform cleaning and exploratory data analysis, then train and evaluate both models on the cleaned data. The entire pipeline—from raw CSVs through final metrics and visualizations—is organized in this repository.
-Repository Structure
-.
-├── a1_True.csv                     # Raw “real” news articles (21,417 rows)
-├── a2_Fake.csv                     # Raw “fake” news articles (23,502 rows)
-├── cleaned_fake_news_dataset.csv   # Cleaned and merged dataset used for modeling
-├── Data_cleaning_EDA.ipynb         # Jupyter notebook: cleaning, EDA, word clouds, distribution plots
-├── train_models.py                 # Python script: fine‑tune BERT & RoBERTa, save models & figures
-├── README.md                       # This file
-└── models/                         # (Generated) saved model checkpoints & artifacts
+
 
 Data Preparation & EDA
 1. **Raw data**
