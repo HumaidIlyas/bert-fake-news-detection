@@ -56,6 +56,3 @@ After training, you will find under `models/` for each checkpoint:
 - `tokenizer.json` & related files
 - `train_val_history.png`
 - `confusion_matrix.png`
-
-Feel free to inspect the notebooks and scripts for more detail on each step.
-![image](https://github.com/user-attachments/assets/a2f1e217-0f6b-4753-8bc4-2096050c8b74)
