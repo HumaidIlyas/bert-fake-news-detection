@@ -14,9 +14,10 @@ Repository Structure
 └── models/                         # (Generated) saved model checkpoints & artifacts
 
 Data Preparation & EDA
-1. **Raw data**  
+1. **Raw data**
 - `a1_True.csv`: original real news articles  
 - `a2_Fake.csv`: original fake news articles
+- Download the above files from https://www.kaggle.com/datasets/clmentbisaillon/fake-and-real-news-dataset
 
 2. **Cleaning & analysis**  
 - Run `Data_cleaning_EDA.ipynb` to:  
